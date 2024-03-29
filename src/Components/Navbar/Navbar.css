@@ -1,0 +1,39 @@
+.brd__navbar{
+   display: flex;
+   width: 100%;
+   background-color: #FFF;
+   align-items: center;
+   justify-content: flex-end;
+   gap: 5rem;
+   flex-direction: row;
+}
+.brd__links{
+   display: flex;
+   flex-direction: row;
+   gap: 5rem;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1;
+   list-style: none;
+  
+}
+.brd__links a{
+   text-decoration: none;
+}
+.brd__links li{
+   cursor: pointer;
+   color: #606467;
+   font-weight: 500;
+   font-size: 14px;
+   text-decoration: none;
+   font-family:  Sans Pro,sans-serif;
+}
+.brd__navbar button{
+   color: white;
+   background: #8dc63f;
+   border: none;
+   padding: 0.5rem 2rem;
+   border-radius: 2px;
+   margin-right: 1rem;
+   font-size: 15px;
+   cursor: pointer;
+}
