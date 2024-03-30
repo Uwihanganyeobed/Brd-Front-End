@@ -16,9 +16,9 @@ const App = () => {
           <Header />
         </div>
       </div>
-      {/* <div className="brd-bottom">
+      <div className="brd-bottom">
         <Footer />
-      </div> */}
+      </div>
     </div>
   );
 };

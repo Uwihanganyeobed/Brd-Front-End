@@ -3,7 +3,7 @@ import './Header.css'
 const Header = () => {
   return (
     <div className='brd__header'>
-      <h2>Login</h2>
+      <h1>Login</h1>
       <h4>Login with the credentials that you used during the registration</h4>
       <div className="brd__form">
       <p>Email or Phone</p>

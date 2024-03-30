@@ -1,0 +1,74 @@
+.brd__footer{
+display: flex;
+flex-direction: column;
+}
+h3{
+   color: #faad14;
+   font-size: 16px;
+   font-weight: 700;
+}
+.brd__footer-up{
+   background-color: aqua;
+   display: flex;
+   flex-direction: row;
+   align-items: stretch;
+   justify-content: space-between;
+   object-fit: cover;
+   background: #283440;
+   padding-bottom: 1rem;
+}
+.brd__footer-left{
+   flex: 0.55;
+   display: flex;
+   padding-left: 2rem;
+   flex-direction: column;
+}
+.brd__footer-left img{
+   width: 180px;
+   cursor: pointer;
+}
+.brd__footer-middle{
+   display: flex;
+   flex-direction: column;
+   flex: 0.5;
+   gap: 1rem;
+}
+.brd__footer-middle a{
+   text-decoration: none;
+   color: #bec6d4;
+   font-size: 15px;
+   width: 150px;
+
+}
+.brd__footer-middle a label:hover{
+   color: green;
+   cursor: pointer;
+}
+.brd__footer-right{
+   display: flex;
+   flex-direction: column;
+   flex: 0.25;
+   gap: 1rem;
+}
+.brd__footer-right span label{
+   color: #bec6d4;  
+}
+.findUs{
+   display: flex;
+   flex-direction: row;
+   gap: 2rem;
+}
+.find{
+   width: 25px; 
+   height: auto;
+   background:#bec6d4 ;
+}
+.brd__footer-down{
+   padding: 1rem 0;
+   background: #1c242c;
+   display: flex;
+   color: #bec6d4;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}

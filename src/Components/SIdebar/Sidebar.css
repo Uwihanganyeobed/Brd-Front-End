@@ -1,0 +1,29 @@
+.brd__sidebar{
+   background: #056333;
+   display: flex;
+   align-items: start;
+   flex-direction: column;
+   justify-content: flex-start;
+   margin: 3rem 1rem;
+   height: 100vh;
+   gap: 1rem;
+
+}
+.myLogo{
+   width: 320px;
+}
+.brd__sidebar h2{
+   color: orange;
+   font-weight: 500;
+   margin-top: 3rem;
+}
+.brd__sidebar p{
+   margin-top: -1rem;
+   color: white;
+   font-size: 15px;
+}
+.myBottomLogo{
+   margin-top: 3rem;
+   margin-left: 1rem;
+   width: 300px;
+}
