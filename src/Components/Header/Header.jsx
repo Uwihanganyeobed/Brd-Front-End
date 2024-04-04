@@ -12,10 +12,10 @@ const Header = () => {
       <p>Password</p>
       <input type="text"placeholder='password' />
       <span className='all-box'>
-        <span>
+        <label>
         <input type="checkbox" />
         <label htmlFor="">Keep me logged in</label>
-        </span>
+        </label>
         <p>Forgot password?</p>
       </span>
       <button>Log In</button>

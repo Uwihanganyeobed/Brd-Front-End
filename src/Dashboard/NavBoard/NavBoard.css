@@ -1,0 +1,113 @@
+.brd__navBoard-header{
+   display: flex;
+   flex-direction: row;
+   border-bottom: 2px solid #e2e2e2;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 1rem;
+   margin: 2rem 0;
+   gap: 2rem;
+}
+.brd__navBoard-left{
+   flex: 0.4;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 1rem;
+}
+.brd__navBoard-left label{
+   font-weight: 700;
+   font-size: 20px;
+   color: #8dc63f;
+}
+.brd__navBoard-middle{
+   flex: 1;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 1rem;
+   justify-content: space-around;
+}
+.brd__navBoard-middle input{
+   padding: 1rem;
+   width: 100%;
+   font-size: 18px;
+   font-weight: 500;
+   margin-right: 3rem;
+   border: 1px solid #e2e2e2;
+}
+.middle-icons{
+   display: flex;
+   flex-direction: row;
+   gap: 2rem;
+}
+.brd__navBoard-right{
+   flex: 0.3;
+   display: flex;
+   margin-left: 2rem;
+   gap: 1rem;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+.right-icons{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.right-icons label{
+   font-size: 20px;
+   font-weight: 700;
+}
+.right-icons p{
+   font-size: 15px;
+}
+.rounded-circle {
+   width: 60px; /* Adjust the width as needed */
+   height: 60px; /* Adjust the height as needed */
+   background-color:#8dc63f; /* Set your desired background color */
+   margin-bottom: 1rem;
+   border-radius: 50%; /* Make it a perfect circle */
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .rounded-inside {
+   position: relative;
+   width: 200px; /* Adjust the width as needed */
+   height: 200px; /* Adjust the height as needed */
+   overflow: hidden;
+ }
+ .inner-circle {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100px; /* Adjust the width as needed */
+   height: 100px; /* Adjust the height as needed */
+   background-color: transparent; /* Set the center circle to be transparent */
+   border-radius: 50%; /* Make it a perfect circle */
+   z-index: 1;
+ }
+ .outer-circle {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #3498db; /* Set the background color for the sides */
+   border-radius: 50%; /* Make it a perfect circle */
+   z-index: 0;
+ }
