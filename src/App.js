@@ -9,7 +9,7 @@ import NavBoard from "./Dashboard/NavBoard/NavBoard";
 const App = () => {
   return (
     <div className="brd-all">
-      {/* <div className="brd-top">
+      <div className="brd-top">
       <div className="brd__left-app">
           <Sidebar />
         </div>
@@ -21,7 +21,7 @@ const App = () => {
       <Home/>
       <div className="brd-bottom">
         <Footer />
-      </div> */}
+      </div>
 
       <NavBoard/>
 
