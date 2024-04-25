@@ -22,7 +22,6 @@ const App = () => {
       <div className="brd-bottom">
         <Footer />
       </div>
-
       <NavBoard/>
 
     </div>
