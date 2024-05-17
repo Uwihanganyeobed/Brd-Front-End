@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="brd-all">
       <div className="brd-top">
-      <div className="brd__left-app">
+        <div className="brd__left-app">
           <Sidebar />
         </div>
         <div className="brd__right-app">
@@ -18,12 +18,11 @@ const App = () => {
           <Header />
         </div>
       </div>
-      <Home/>
+      <Home />
       <div className="brd-bottom">
         <Footer />
       </div>
-      <NavBoard/>
-
+      <NavBoard />
     </div>
   );
 };

@@ -28,7 +28,6 @@ const Home = () => {
           <img className="girl-right" src={girl_img1} alt="" />
         </div>
       </div>
-
       <div className="brd__home-cards">
         <div className="brd__home-card">
           <img src={card1_img} alt="" />
@@ -63,7 +62,6 @@ const Home = () => {
           </p>
         </div>
       </div>
-
       <div className="brd__home-bursary">
         <div className="brd__home-bursary_left">
           <h2>Education Bursary</h2>

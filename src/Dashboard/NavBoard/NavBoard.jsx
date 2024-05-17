@@ -22,7 +22,6 @@ const NavBoard = () => {
                <h>Student</h>
                </div>
               <div className="rounded-circle">
-
               </div>
             </div>
     </div>
