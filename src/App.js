@@ -28,3 +28,25 @@ const App = () => {
 };
 
 export default App;
+
+/*
+// src/App.js
+import config from './AIRobot/Bot/config.js';
+import MessageParser from './AIRobot/Bot/MessageParser.jsx';
+import ActionProvider from './AIRobot/Bot/ActionProvider.jsx';
+import Chatbot from 'react-chatbot-kit'
+import 'react-chatbot-kit/build/main.css'
+
+export const App = () => {
+  return (
+    <div>
+      <Chatbot
+        config={config}
+        messageParser={MessageParser}
+        actionProvider={ActionProvider}
+      />
+    </div>
+  );
+};
+export default App;
+*/
