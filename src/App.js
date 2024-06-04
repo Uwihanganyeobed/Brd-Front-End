@@ -7,6 +7,7 @@ import Sidebar from "./components/SIdebar/Sidebar";
 import Home from "./components/Home/Home";
 import NavBoard from "./Dashboard/NavBoard/NavBoard";
 const App = () => {
+  
   return (
     <div className="brd-all">
       <div className="brd-top">
