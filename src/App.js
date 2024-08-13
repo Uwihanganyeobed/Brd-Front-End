@@ -5,11 +5,12 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Sidebar from "./components/SIdebar/Sidebar";
 import Home from "./components/Home/Home";
-import NavBoard from "./Dashboard/NavBoard/NavBoard";
+import { BrowserRouter } from "react-router-dom";
 const App = () => {
   
   return (
-    <div className="brd-all">
+    <BrowserRouter>
+       <div className="brd-all">
       <div className="brd-top">
         <div className="brd__left-app">
           <Sidebar />
@@ -23,8 +24,9 @@ const App = () => {
       <div className="brd-bottom">
         <Footer />
       </div>
-      <NavBoard />
     </div>
+    </BrowserRouter>
+ 
   );
 };
 
